@@ -1,0 +1,127 @@
+/* Mengatur gaya umum untuk halaman */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./Image/Background1.png);
+    /* text-align: center; */
+    /* Mengatur teks agar berada di tengah */
+}
+
+/* Mengatur header */
+h1 {
+    color: #333;
+    /*margin-top: 50px;*/
+}
+
+h3 {
+    color: #555;
+}
+
+/* Mengatur paragraf */
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Mengatur gambar */
+img {
+    width: 250px;
+    margin-left: 1035px;
+    margin-top: -50px;
+    /* Atur lebar gambar */
+    /*margin-top: 20px;*/
+}
+
+/* Mengatur tombol */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #565656;
+    
+}
+
+/* Mengatur tombol khusus untuk daftar dan masuk */
+.TombolDaftar button {
+    width: 200px;
+    /* Lebar tombol */
+    color: white;
+    margin-left: 200px;
+    margin-top: -100px;
+    padding: 14px 40px;
+}
+
+/* Tombol daftar */
+
+
+.buttonDaftar {
+    background: #7E69FC; padding: 5px 5px;color: white;border-radius: 10px;width: 200px;
+}
+
+.buttonDaftar:hover{
+    opacity: 0.5; 
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.buttonMasuk {
+    background: #7E69FC;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.buttonMasuk:hover {
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+
+}
+
+/* Tombol masuk */
+.TombolDaftar button:last-child {
+    background-color: white;
+    color: #7E69FC;
+    border: 2px solid #7E69FC;
+    margin-left: 50px;
+}
+
+/* Mengatur posisi dan gaya tombol contact us */
+div:last-child {
+    margin-top: 30px;
+}
+
+.button-daftar {
+    background-color: #7e69fc;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    opacity: 1;
+    transition: all 0.25s ease-in-out;
+}
+
+.button-daftar:hover {
+    background-color: rgb(115, 0, 255);
+    opacity: 0.7;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.contact img{
+    height: 30px;
+    width: 30px;
+   
+}
+
+a1{
+    cursor: pointer;
+}
