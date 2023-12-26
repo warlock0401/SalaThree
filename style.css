@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/picture/Group\ 24.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    
+}
+
+body {
+    background-image: url(picture/Group\ 24.png);
+    /* height: 100% ; */
+    background-size: 100%;
+}
+/* .image {
+    width: 497px;
+    height: 192px;
+    flex-shrink: 0;
+    border-radius: 20px;
+} */
+
+/* .search_input input{
+    background-color: white;
+    z-index: 102;
+} */
+
+.carousel{ 
+    border-radius: 20px; 
+}
